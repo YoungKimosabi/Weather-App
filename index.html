@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="./app.css">
+    <title>WeatherApp</title>
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="background-image" id="background">
+    <div class="container" id="form_container">
+        <form>
+            <input class="form-control" type="text" id="city" placeholder="Enter City"/>
+            <br>
+            <button class="form-control" type="submit" id="search">Get Weather</button>
+        </form>
+        
+        <div class="container" id="wx_results">
+            <h1 id="heading"></h1>
+            <div id="cards">
+            <div class="card text-bg-light mb-3">
+                <div class="card-header">High</div>
+                <div class="card-body">
+                    <p class="card-text" id="high_p"></p>
+                </div>
+            </div>
+            <div class="card text-bg-light mb-3">
+                <div class="card-header">Low</div>
+                <div class="card-body">
+                    <p class="card-text" id="low_p"></p>
+                </div>
+            </div>
+            <div class="card text-bg-light mb-3">
+                <div class="card-header">Conditions</div>
+                <div class="card-body">
+                    <p class="card-text" id="cond"></p>
+                </div>
+            </div>
+            <div class="card text-bg-light mb-3">
+                <div class="card-header">Visibility</div>
+                <div class="card-body">
+                    <p class="card-text" id="vis"></p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,46 @@
+
+#background {
+    background-image: url("./images/sky1.png");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#city{
+    opacity: 0.75;
+    text-align: center;
+}
+
+
+#form_container button{
+    color: rgb(82, 82, 81);
+}
+
+#form_container{
+    width:35%;
+    position:relative;
+    padding-top:10%;
+}
+
+ #wx_results{
+    width: 25vw;
+    padding-top:43%;
+}
+
+#search{
+    background-color: rgb(247, 209, 112);
+}
+
+#heading{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(35, 35, 35);
+    padding-bottom: 2%;
+    font-weight:lighter;
+}
+
+#cards{
+    opacity: 0.75;
+}
+
