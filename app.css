@@ -1,6 +1,6 @@
 
 #background {
-    background-image: url("./images/sky1.png");
+    background-image: url("./images/lightning.webp");
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 
 
 #form_container button{
-    color: rgb(82, 82, 81);
+    color: rgb(0, 0, 0);
 }
 
 #form_container{
@@ -29,7 +29,7 @@
 }
 
 #search{
-    background-color: rgb(247, 209, 112);
+    background-color: rgb(250, 0, 0);
 }
 
 #heading{

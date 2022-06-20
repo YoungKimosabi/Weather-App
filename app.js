@@ -1,4 +1,3 @@
-
 const handleSearch = async(event) => {
     event.preventDefault();
     let city = document.getElementById('city').value
